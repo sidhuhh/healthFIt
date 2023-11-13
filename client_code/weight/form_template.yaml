@@ -1,0 +1,41 @@
+container:
+  type: ColumnPanel
+  properties: {role: null, tooltip: '', border: '', foreground: '', visible: true,
+    wrap_on: mobile, col_spacing: medium, spacing_above: small, col_widths: '{}',
+    spacing_below: small, background: 'theme:On Background'}
+components:
+- type: Spacer
+  properties: {height: 32}
+  name: spacer_1
+  layout_properties: {grid_position: 'JZHFTL,TLMFAB'}
+- type: Label
+  properties: {role: null, align: center, tooltip: '', border: '', foreground: 'theme:Background',
+    visible: true, text: "What is your current \nweight?", font_size: 25, font: '',
+    spacing_above: small, icon_align: left, spacing_below: small, italic: false, background: '',
+    bold: false, underline: false, icon: ''}
+  name: label_1
+  layout_properties: {grid_position: 'SWVOOD,GSVYAC'}
+- type: TextBox
+  properties: {role: null, align: center, hide_text: false, tooltip: '', placeholder: cccccc,
+    border: '', enabled: true, foreground: 'theme:Background', visible: true, text: '',
+    font_size: null, font: '', spacing_above: none, type: text, spacing_below: none,
+    italic: false, background: 'theme:On Background', bold: false, underline: true}
+  name: text_box_1
+  layout_properties: {grid_position: 'XRLEHH,SSUYBU'}
+- type: Spacer
+  properties: {height: 262}
+  name: spacer_2
+  layout_properties: {grid_position: 'HAVDLK,QVUPNS'}
+- type: Button
+  properties: {role: filled-button, align: center, tooltip: '', border: '', enabled: true,
+    foreground: '', visible: true, text: Next, font_size: null, font: '', spacing_above: small,
+    icon_align: left, spacing_below: small, italic: false, background: '#28cc33',
+    bold: false, underline: false, icon: ''}
+  name: button_1
+  layout_properties: {grid_position: 'RKFOGT,LZCDDH'}
+  event_bindings: {click: button_1_click}
+- type: Spacer
+  properties: {height: 402}
+  name: spacer_3
+  layout_properties: {grid_position: 'NWHJLG,GXLEQJ'}
+is_package: true

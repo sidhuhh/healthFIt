@@ -1,0 +1,62 @@
+container:
+  type: ColumnPanel
+  properties: {role: null, tooltip: '', border: '', foreground: '', visible: true,
+    wrap_on: mobile, col_spacing: medium, spacing_above: small, col_widths: '{}',
+    spacing_below: small, background: 'theme:On Background'}
+components:
+- type: Spacer
+  properties: {height: 32}
+  name: spacer_2
+  layout_properties: {grid_position: 'HXALSH,VUNSKC'}
+- type: Label
+  properties: {role: null, align: center, tooltip: '', border: '', foreground: 'theme:Background',
+    visible: true, text: 'What is your sex?', font_size: 25, font: '', spacing_above: small,
+    icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+    underline: false, icon: ''}
+  name: label_1
+  layout_properties: {grid_position: 'EGHAGE,KXFRSG'}
+- type: Label
+  properties: {role: null, align: center, tooltip: '', border: '', foreground: '',
+    visible: true, text: "This information is udes to personalise your\nexperience,\
+      \ for example to calculate your burned \ncalories and required intake more accurately.",
+    font_size: 10, font: '', spacing_above: none, icon_align: left, spacing_below: medium,
+    italic: false, background: '', bold: false, underline: false, icon: ''}
+  name: label_2
+  layout_properties: {grid_position: 'JKCOMO,QYCKSB'}
+- type: Button
+  properties: {role: null, align: center, tooltip: '', border: '', enabled: true,
+    foreground: '', visible: true, text: Male, font_size: null, font: '', spacing_above: small,
+    icon_align: left, spacing_below: small, italic: false, background: '#28cc33',
+    bold: false, underline: false, icon: ''}
+  name: button_1
+  layout_properties: {grid_position: 'TQYAGX,CBJYNN'}
+  event_bindings: {click: button_1_click}
+- type: Button
+  properties: {role: null, align: center, tooltip: '', border: '', enabled: true,
+    foreground: '', visible: true, text: Female, font_size: null, font: '', spacing_above: small,
+    icon_align: left, spacing_below: small, italic: false, background: '#28cc33',
+    bold: false, underline: false, icon: ''}
+  name: button_2
+  layout_properties: {grid_position: 'TQYAGX,SAFNYJ'}
+  event_bindings: {click: button_2_click}
+- type: Button
+  properties: {role: null, align: center, tooltip: '', border: '', enabled: true,
+    foreground: '', visible: true, text: Other, font_size: null, font: '', spacing_above: small,
+    icon_align: left, spacing_below: small, italic: false, background: '#28cc33',
+    bold: false, underline: false, icon: ''}
+  name: button_3
+  layout_properties: {grid_position: 'IZRLYB,NKVCZH'}
+  event_bindings: {click: button_3_click}
+- type: Button
+  properties: {role: null, align: center, tooltip: '', border: '', enabled: true,
+    foreground: '', visible: true, text: Prefer not to say, font_size: null, font: '',
+    spacing_above: small, icon_align: left, spacing_below: small, italic: false, background: '#28cc33',
+    bold: false, underline: false, icon: ''}
+  name: button_4
+  layout_properties: {grid_position: 'IZRLYB,BRNXUV'}
+  event_bindings: {click: button_4_click}
+- type: Spacer
+  properties: {height: 542.2000007629395}
+  name: spacer_1
+  layout_properties: {grid_position: 'ACHMCI,USGZIV'}
+is_package: true
