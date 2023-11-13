@@ -7,7 +7,8 @@ unique_ids:
     sex: '1699865985577532656047603.11633'
     weight: '1699866517213932858328940.6923'
   modules: {}
-  server_modules: {}
+  server_modules:
+    ServerModule1: '1699879861399493327568820.2541'
   assets:
     standard-page.html: ZTBASBIK6T72IQJCY3HDY2MTFRBI4Y3Z
     theme.css: XDJAPZM5CEV6QB4IM5DTLE54TAFX2DW4
