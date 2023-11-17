@@ -9,7 +9,7 @@ allow_embedding: false
 name: Project
 runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox,
   server_spec: null}
-metadata: {title: 'Health manasger ', description: Know more about calories}
+metadata: {title: Health manager, description: Know more about calories}
 startup_form: null
 db_schema:
   table_1:
