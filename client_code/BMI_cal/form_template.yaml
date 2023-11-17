@@ -16,7 +16,7 @@ components:
     border: '', enabled: true, foreground: 'theme:Background', visible: true, text: '',
     font_size: null, font: '', spacing_above: small, type: text, spacing_below: small,
     italic: false, background: 'theme:On Background', bold: false, underline: false}
-  name: text_box_1
+  name: text_weight
   layout_properties: {grid_position: 'BZGDYG,ZYNJOR'}
 - type: Label
   properties: {role: null, align: center, tooltip: '', border: '', foreground: 'theme:On
@@ -30,7 +30,7 @@ components:
     border: '', enabled: true, foreground: '', visible: true, text: '', font_size: null,
     font: '', spacing_above: small, type: text, spacing_below: small, italic: false,
     background: 'theme:On Background', bold: false, underline: false}
-  name: text_box_2
+  name: text_height
   layout_properties: {grid_position: 'CMQEAF,DIOTFO'}
 - type: Button
   properties: {role: null, align: center, tooltip: '', border: '', enabled: true,

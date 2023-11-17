@@ -26,5 +26,5 @@ class sex(sexTemplate):
 
   def button_4_click(self, **event_args):
     """This method is called when the button is clicked"""
-    open_form('weight')
+    open_form('BMI_cal')
 
