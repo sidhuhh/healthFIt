@@ -1,11 +1,35 @@
 container:
   type: ColumnPanel
-  properties: {col_widths: '{}'}
+  properties: {role: null, tooltip: '', border: '', foreground: '', visible: true,
+    wrap_on: never, col_spacing: none, spacing_above: small, col_widths: '{}', spacing_below: small,
+    background: 'theme:On Background'}
 components:
-- type: Image
-  properties: {role: null, vertical_align: center, height: '200', tooltip: '', border: '',
-    foreground: '', visible: false, display_mode: shrink_to_fit, spacing_above: small,
-    source: '', spacing_below: small, background: 'theme:Primary Container', horizontal_align: center}
-  name: image_1
-  layout_properties: {grid_position: 'HAHQTA,EDYUUO'}
+- type: Label
+  properties: {role: null, align: center, tooltip: '', border: '', foreground: 'theme:On
+      Primary', visible: true, text: 'What is your current weight ?', font_size: null,
+    font: '', spacing_above: none, icon_align: left, spacing_below: none, italic: false,
+    background: '', bold: false, underline: false, icon: ''}
+  name: label_1
+  layout_properties: {grid_position: 'LONXNY,ENZFJJ'}
+- type: TextBox
+  properties: {role: null, align: center, hide_text: false, tooltip: '', placeholder: '',
+    border: '', enabled: true, foreground: 'theme:Background', visible: true, text: '',
+    font_size: null, font: '', spacing_above: small, type: text, spacing_below: small,
+    italic: false, background: 'theme:On Background', bold: false, underline: false}
+  name: text_box_1
+  layout_properties: {grid_position: 'BZGDYG,ZYNJOR'}
+- type: Label
+  properties: {role: null, align: center, tooltip: '', border: '', foreground: 'theme:On
+      Primary', visible: true, text: 'How tall are you ?', font_size: null, font: '',
+    spacing_above: none, icon_align: left, spacing_below: none, italic: false, background: '',
+    bold: false, underline: false, icon: ''}
+  name: label_2
+  layout_properties: {grid_position: 'BVVFUU,VQDXBP'}
+- type: TextBox
+  properties: {role: null, align: center, hide_text: false, tooltip: '', placeholder: '',
+    border: '', enabled: true, foreground: '', visible: true, text: '', font_size: null,
+    font: '', spacing_above: small, type: text, spacing_below: small, italic: false,
+    background: 'theme:On Background', bold: false, underline: false}
+  name: text_box_2
+  layout_properties: {grid_position: 'CMQEAF,DIOTFO'}
 is_package: true
